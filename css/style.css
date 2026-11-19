@@ -39,7 +39,7 @@ body.noloader .loader{display:none}
 .header.hide{transform:translateY(-140%)}
 .logo{display:flex;align-items:center;gap:8px;font-weight:1000;font-size:19px;letter-spacing:-.01em}
 .logo img{height:42px;width:auto}
-.nav{display:flex;gap:4px}
+.nav{display:flex;gap:4px;margin-right:auto;margin-left:10px}
 .nav a{padding:9px 16px;border-radius:99px;font-weight:800;font-size:15px;transition:background .25s,color .25s}
 .nav a:hover{background:var(--cream2)}
 .nav a.active{background:var(--navy);color:var(--cream)}
@@ -265,7 +265,7 @@ body.ready :is(.hero__logo,.hero__sub,.hero__btns,.hero__chips){opacity:1;transf
   body{font-size:16px}
   .burger{display:block}
   .header .btn--sm{display:none}
-  .nav{position:fixed;left:0;right:0;top:66px;flex-direction:column;gap:8px;padding:14px;border-radius:30px;background:#fffaf0;border:2px solid #fff;box-shadow:0 24px 50px -10px rgba(110,75,20,.5);opacity:0;transform:translateY(-16px) scale(.96);pointer-events:none;transition:.35s var(--spring)}
+  .nav{margin:0;position:fixed;left:0;right:0;top:66px;flex-direction:column;gap:8px;padding:14px;border-radius:30px;background:#fffaf0;border:2px solid #fff;box-shadow:0 24px 50px -10px rgba(110,75,20,.5);opacity:0;transform:translateY(-16px) scale(.96);pointer-events:none;transition:.35s var(--spring)}
   body.menu .nav{opacity:1;transform:none;pointer-events:auto}
   .nav a{font-size:22px;font-weight:1000;padding:14px 20px;background:var(--cream)}
   .hero{padding-top:104px;justify-content:flex-start}
